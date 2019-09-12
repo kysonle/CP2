@@ -76,6 +76,40 @@ body {
   height: 92px;
 }
 
+.container{
+  width: 100%;
+  border: 4px solid red;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 13px 3px;
+}
+
+.container img{
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+}
+
+#tiles{
+  width: 100%;
+  border: 4px solid red;
+}
+#tiles .box{
+  float: left;
+  width: 25%;
+  height: 40%;
+}
+
+#tiles .box .image{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
 #search-bar {
   position: relative;
   flex-basis: 100%;
@@ -172,18 +206,4 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
-}
-#tiles{
-  width: 100%;
-  border: 4px solid red;
-}
-#tiles .box{
-  float: left;
-  width: 25%;
-  height: 40%;
-}
-#tiles .box .imga{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 }
